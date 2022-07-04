@@ -1,0 +1,55 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
+
+.body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.react-bootstrap-table {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+  padding: 20px;
+  overflow: auto;
+}
+
+td {
+  background: lightgray;
+}
+
+.table td,
+.table th {
+  padding-left: 0 0 0 5px !important;
+}
+
+.tb-cell-commment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row-wrap {
+  max-width: 650px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.react-bootstrap-table table tbody tr td p span {
+  max-width: 200px;
+  min-width: 100%;
+  flex: 1 1 auto;
+}
+
+.row-icon-expand {
+  font-size: 14px;
+}
